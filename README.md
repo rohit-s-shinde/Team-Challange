@@ -1,2 +1,2 @@
 # login_screen
-Team Login Screen Challenger
+Team Login Screen for Social Media Website Challenge
