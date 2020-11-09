@@ -14,12 +14,12 @@ export class AppComponent implements OnInit {
   Show: string;
   icon: string;
   refresh = true;
+  disableLogin = false;
   constructor(private router: Router, private primengConfig: PrimeNGConfig, private confirmationService: ConfirmationService, private appService: AppService) {}
 
   ngOnInit() {
     window.scrollTo(0, 0);
     console.log(sessionStorage);
-    
     this.userName = sessionStorage.getItem('userName');
     this.primengConfig.ripple = true;
     if (!!this.userName) {
