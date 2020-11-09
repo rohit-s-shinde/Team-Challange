@@ -1,2 +1,2 @@
 # Side Project
-Team Excersice to improve UI design skill
+Team Exersice to improve UI design skill
